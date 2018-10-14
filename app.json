@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tarBartest1/tarBartest1",
+    "pages/tarBartest2/tarBartest2",
+    "pages/tarBartest3/tarBartest3"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#ff7f12",
+    "borderStyle": "black",
+    "list": [{
+        "selectedIconPath": "",
+        "iconPath": "",
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "position":"top"
+      },{
+        "selectedIconPath": "",
+        "iconPath": "",
+        "pagePath": "pages/tarBartest1/tarBartest1",
+        "text": "tarBartest1"
+      },{
+        "selectedIconPath": "",
+        "iconPath": "",
+        "pagePath": "pages/tarBartest2/tarBartest2",
+        "text": "tarBartest2"
+      },{
+        "selectedIconPath": "",
+        "iconPath": "",
+        "pagePath": "pages/tarBartest3/tarBartest3",
+        "text": "tarBartest3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+<!--pages/tarBartest1/tarBartest1.wxml-->
+<text>pages/tarBartest1/tarBartest1.wxml</text>
+
+<!-- +++++++++++++++标题++++++++++++++++ {{ }} 内运算符-->
+<view>{{num1}}+2+{{num33}}</view>
+<view>这个是定义变量{{"test:" + name}}</view>
+
+<view>这个是Obj:{{suzakuObj.ename}}</view>
+<view>这个是定义数组:{{suzakuArray[5]}}</view>
+
+
+<!-- +++++++++++++++标题++++++++++++++++ 对象的组合 -->
+<view>{{ [myValue,2,3,'stringtype'] }}</view>
+<view>{{ [aname,sex,age,'上海市房地产学校','10-9'] }}</view>
+
+<!-- template 模板还存在疑惑，包括对象的组合三种方式后两种，...及 -->
+<!-- <template is='testTemp'>aaaa</template> -->
+
+<!-- +++++++++++++++标题++++++++++++++++  wx:if wx:elif wx:else-->
+<view wx:if='{{true}}'>这里会显示</view>
+<view wx:if='{{false}}'>这个view不会显示</view>
+<view wx:elif='{{true}}'>if..else 所以这个view会显示</view>
+
+<view wx:if='{{false}}'>这个view不会显示</view>
+<view wx:elif='{{false}}'>if..else 所以这个elif view会显示</view>
+<view wx:else='{{true}}'>if...elseif...else 所以这个else view会显示</view>
+
+<!-- +++++++++++++++标题++++++++++++++++  wx:for -->
