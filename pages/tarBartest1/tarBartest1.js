@@ -18,7 +18,20 @@ Page({
     myValue: 4,
     aname: 'Leon',
     sex: 1,
-    age: 23
+    age: 23,
+    suzakuwxforArray_1:[
+      'value1','value2'
+    ],
+    suzakuwxforArray_2:[
+      '易洋千玺','踢足球',"test",1,'gudnma',
+      {name:'aaaa'},
+      {haha:2}
+    ],
+    myArray:[
+      [1,2,3,],
+      [4,5,6],
+      [7,8,9]
+    ]
   },
 
   /**

@@ -26,6 +26,20 @@
 <view wx:else='{{true}}'>if...elseif...else 所以这个else view会显示</view>
 
 <!-- +++++++++++++++标题++++++++++++++++  wx:for -->
-<view wx:for>
-  {{ index }} : {{ item }}
+
+<!-- 数组  wx:for -->
+<view wx:for='{{suzakuwxforArray_1}}'>
+  {{ index }} & {{ item }}
+</view>
+
+<!-- 数组  wx:for 自定义index item -->
+<view wx:for="{{suzakuwxforArray_2}}" wx:for-index='suzakuwxforindex_1' wx:for-item="suzakuwxforitem_1">
+  {{suzakuwxforindex_1}}
+  {{suzakuwxforitem_1.haha}}
+</view>
+
+<view wx:for='{{myArray}}' wx:for-index='myindex' wx:for-item='myitem'>
+  <view wx:for='{{myitem}}' wx:for-index='subindex' wx:for-item='subitem'>
+    {{subitem}}
+  </view>
 </view>
