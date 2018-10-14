@@ -26,3 +26,6 @@
 <view wx:else='{{true}}'>if...elseif...else 所以这个else view会显示</view>
 
 <!-- +++++++++++++++标题++++++++++++++++  wx:for -->
+<view wx:for>
+  {{ index }} : {{ item }}
+</view>
